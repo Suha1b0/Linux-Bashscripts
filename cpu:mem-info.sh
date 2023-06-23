@@ -25,5 +25,5 @@ if [ $MEMUTL -gt 79 ]; then
 fi
 
 if [ $FLAG = 1 ]; then
-echo -e "Hello All, \nPlease find details below: \n\n$MSGC \n\n $MSGM \n\n\nNOTE: THIS IS AN AUTO GENERATED EMAIL, PLEASE DO NOT REPLY TO THIS EMAIL.\n\n\nThank You!!!\nBest Regards\n" |mailx -s ..
+echo -e "Hello All, \nPlease find details below: \n\n$MSGC \n\n $MSGM \n\n\ \n$ORA\n\n nNOTE: THIS IS AN AUTO GENERATED EMAIL, PLEASE DO NOT REPLY TO THIS EMAIL.\n\n\nThank You!!!\nBest Regards\n" |mailx -s "Standard Checks on servers" mohammed.suhaib2@dxc.com
 fi
